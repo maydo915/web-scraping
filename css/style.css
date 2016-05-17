@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/04/2016, 4:38:55 PM
+    Author     : user
+*/
+
+body {
+    background-image: url("../img/realestate-sticker-bw.png");
+    background-repeat: repeat;
+}
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+.container{ 
+    width: 75%;
+    background: #FFF;
+}
+.container-fluid{
+    width: 90%;
+    background: #FFF;
+}
+
+/* Red Nav Pills */
+.red .active a,
+.red .active a:hover {
+    background-color: #990000;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #990000;
+}
+
+/* Image Preloader */
+/*
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/ajax-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+*/
+
+/* Override Bootstrap's button style */
+.btn-default{
+    color: #fff;
+    background-color: #f00;
+    border-color: #f00
+}
+.btn-default:hover{
+    border: 1px solid #f00;
+    background: #fff;
+}
+/* HEADER */
+.site_title img{
+    width: 85px;
+}
+.site_title span{
+    font-size: 2em;
+    color: #990000;
+    font-family: Arial
+}
+
+/* CONTENTS */
+.scrollable{
+    width: 90%;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+/* Switcher */
+.nav.nav-pills{ 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.property{
+    padding: 10px 0;
+    border-bottom:  1px solid #ccc;
+}
+
+/* ERROR: */
+.errors{
+    color: #f00;
+}
+
+
+
+/* FOOTER - Real estate logo */
+.row.footer{
+    background: #990000;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius:5px 5px 0 0;
+}
+.footer img{
+    width: 50%;
+}
+.footer p{
+    margin-top: 10px;
+    color: #e7e7e7;
+}
